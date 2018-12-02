@@ -21,8 +21,8 @@ void loop() {
   delay(1000);
 
   // turn on green, turn off red, yellow
-    digitalWrite(13, LOW);
-    digitalWrite(12, LOW);
-    digitalWrite(8, HIGH);
-    delay(1000);
+  digitalWrite(13, LOW);
+  digitalWrite(12, LOW);
+  digitalWrite(8, HIGH);
+  delay(1000);
 }
