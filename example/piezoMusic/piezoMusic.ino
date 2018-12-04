@@ -8,7 +8,7 @@
 #define B 494   // 시
 #define H 523   // 높은 도
 
-int piezo_Pin = 6;
+int piezo_Pin = 8;
 int tempo = 200;
 int notes[25] = { G,G,A,A,G,G,E,G,G,E,E,D,G,G,A,A,G,G,E,G,E,D,E,C};
 
