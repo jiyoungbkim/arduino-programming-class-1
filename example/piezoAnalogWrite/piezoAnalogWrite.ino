@@ -1,5 +1,5 @@
 int pzo = 6;
-int dly = 500;
+int dly = 250;
 
 void setup() {
   pinMode(pzo, OUTPUT);
