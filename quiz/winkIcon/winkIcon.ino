@@ -12,12 +12,12 @@ void setup()
 }
 
 void loop() {
-  lcd.print("@ (^_-)"); 
+  lcd.print("(^o^)    @ (^_-)"); 
   delay(1000);
   lcd.home();
   lcd.clear();
   
-  lcd.print("(-_^) @"); 
+  lcd.print("(-_^) @    (^o^)"); 
   delay(1000);
   lcd.home();
   lcd.clear();
