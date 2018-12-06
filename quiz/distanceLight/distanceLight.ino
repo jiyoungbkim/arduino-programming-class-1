@@ -27,12 +27,12 @@ void loop() {
   if(digitalRead(13) == HIGH) {
       if(distance >= 5 && distance < 10) {
         Serial.println("in"); 
-        digitalWrite(red_pin, HIGH);
-        digitalWrite(green_pin, LOW);
-      } else {
-        Serial.println("out"); 
         digitalWrite(red_pin, LOW);
         digitalWrite(green_pin, HIGH);
+      } else {
+        Serial.println("out"); 
+        digitalWrite(red_pin, HIGH);
+        digitalWrite(green_pin, LOW);
       }
   } else {
     Serial.println("unpushed");
