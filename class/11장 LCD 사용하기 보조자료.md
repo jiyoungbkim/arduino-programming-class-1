@@ -76,7 +76,7 @@ void loop()
 
 | 함수                      | 설명                               |
 | ------------------------- | ---------------------------------- |
-| lcd.begin();              | LCD 백라이트를 켠다                |
+| lcd.backlight();          | LCD 백라이트를 켠다                |
 | lcd.noBacklight();        | LCD 백라이트를 끈다                |
 | lcd.noDisplay();          | LCD 표시된 내용을 숨긴다           |
 | lcd.display();            | LCD 표시 내용을 보여준다           |
